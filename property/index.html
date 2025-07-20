@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+ <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,8 +10,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="icon" type="image/png" href="favicon.ico" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="icon" type="image/png" href="/favicon.ico" />
     <link
       href="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css"
       rel="stylesheet"
@@ -55,7 +55,7 @@
             class="flex flex-1 items-center justify-center md:items-stretch md:justify-start"
           >
             <!-- Logo -->
-            <a class="flex flex-shrink-0 items-center" href="/index.html">
+            <a class="flex flex-shrink-0 items-center" href="../">
               <img
                 class="h-10 w-auto"
                 src="/images/logo-white.png"
@@ -70,17 +70,17 @@
             <div class="hidden md:ml-6 md:block">
               <div class="flex space-x-2">
                 <a
-                  href="/index.html"
+                  href="../"
                   class="text-white bg-black hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
                   >Home</a
                 >
                 <a
-                  href="/properties.html"
+                  href="/properties"
                   class="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
                   >Properties</a
                 >
                 <a
-                  href="/add-property.html"
+                  href="/add-property"
                   class="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
                   >Add Property</a
                 >
@@ -104,7 +104,7 @@
           <div
             class="absolute inset-y-0 right-0 flex items-center pr-2 md:static md:inset-auto md:ml-6 md:pr-0"
           >
-            <a href="messages.html" class="relative group">
+            <a href="/messages" class="relative group">
               <button
                 type="button"
                 class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
@@ -163,7 +163,7 @@
                 tabindex="-1"
               >
                 <a
-                  href="/profile.html"
+                  href="/profile"
                   class="block px-4 py-2 text-sm text-gray-700"
                   role="menuitem"
                   tabindex="-1"
@@ -171,7 +171,7 @@
                   >Your Profile</a
                 >
                 <a
-                  href="saved-properties.html"
+                  href="/saved-properties"
                   class="block px-4 py-2 text-sm text-gray-700"
                   role="menuitem"
                   tabindex="-1"
@@ -196,17 +196,17 @@
       <div class="hidden" id="mobile-menu">
         <div class="space-y-1 px-2 pb-3 pt-2">
           <a
-            href="/index.html"
+            href="../"
             class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
             >Home</a
           >
           <a
-            href="/properties.html"
+            href="/properties"
             class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
             >Properties</a
           >
           <a
-            href="/add-property.html"
+            href="/add-property"
             class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
             >Add Property</a
           >
@@ -270,7 +270,7 @@
       <div class="container-xl m-auto">
         <div class="grid grid-cols-1">
           <img
-            src="images/properties/a1.jpg"
+            src="/images/properties/a1.jpg"
             alt=""
             class="object-cover h-[400px] w-full"
             width="1800"
@@ -283,7 +283,7 @@
     <section>
       <div class="container m-auto py-6 px-6">
         <a
-          href="/properties.html"
+          href="/properties"
           class="text-blue-500 hover:text-blue-600 flex items-center"
         >
           <i class="fas fa-arrow-left mr-2"></i> Back to Properties
@@ -532,8 +532,8 @@
           class="flex flex-wrap justify-center md:justify-start mb-4 md:mb-0"
         >
           <ul class="flex space-x-4">
-            <li><a href="/properties.html">Properties</a></li>
-            <li><a href="/terms.html">Terms of Service</a></li>
+            <li><a href="/properties">Properties</a></li>
+            <li><a href="/terms">Terms of Service</a></li>
           </ul>
         </div>
         <div>
@@ -544,7 +544,7 @@
       </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
     <script>
       mapboxgl.accessToken =
         'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw';
